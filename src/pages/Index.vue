@@ -147,9 +147,16 @@
 </template>
 
 <script>
+ import VueTailwindModal from 'vue-tailwind-modal'
+    Vue.use(VueTailwindModal)
 export default {
+  components: {
+    VueTailwindModal,
+  },
+  
   metaInfo: {
     title: 'Home'
+
   }
 }
 </script>
