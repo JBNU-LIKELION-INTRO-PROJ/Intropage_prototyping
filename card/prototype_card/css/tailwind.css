@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+exports.config = {
+    pligins: {
+        postcss: {
+            processors:[
+                reqire('tailwindcss'),
+            ]
+        }
+    }
+}
